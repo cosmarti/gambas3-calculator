@@ -1,0 +1,77 @@
+# Gambas Form File 3.0
+
+{ Form Form
+  MoveScaled(0,0,53,63)
+  Text = ("Calculator V1.0")
+  { ValueBox1 ValueBox
+    MoveScaled(38,4,13,9)
+  }
+  { Button1 Button
+    MoveScaled(9,45,9,9)
+    Text = ("1")
+  }
+  { Button2 Button
+    MoveScaled(23,45,9,9)
+    Text = ("2")
+  }
+  { Button3 Button
+    MoveScaled(37,45,9,9)
+    Text = ("3")
+  }
+  { Button4 Button
+    MoveScaled(9,34,9,9)
+    Text = ("4")
+  }
+  { Button5 Button
+    MoveScaled(23,34,9,9)
+    Text = ("5")
+  }
+  { Button6 Button
+    MoveScaled(37,34,9,9)
+    Text = ("6")
+  }
+  { Button7 Button
+    MoveScaled(9,22,9,9)
+    Text = ("7")
+  }
+  { Button8 Button
+    MoveScaled(23,22,9,9)
+    Text = ("8")
+  }
+  { Button9 Button
+    MoveScaled(37,22,9,9)
+    Text = ("9")
+  }
+  { Button10 Button
+    MoveScaled(1,4,16,4)
+    Text = ("+")
+  }
+  { Button11 Button
+    MoveScaled(1,10,16,4)
+    Text = ("-")
+  }
+  { Button12 Button
+    MoveScaled(20,4,16,4)
+    Text = ("*")
+  }
+  { Button13 Button
+    MoveScaled(20,10,16,4)
+    Text = ("/")
+  }
+  { Button14 Button
+    MoveScaled(11,15,16,4)
+    Text = ("C")
+  }
+  { Button15 Button
+    MoveScaled(19,56,16,4)
+    Text = ("0")
+  }
+  { Button16 Button
+    MoveScaled(38,14,13,3)
+    Text = ("=")
+  }
+  { Button17 Button
+    MoveScaled(38,18,13,3)
+    Text = (".")
+  }
+}

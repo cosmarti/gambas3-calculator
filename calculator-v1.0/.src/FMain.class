@@ -1,0 +1,166 @@
+' Gambas class file
+
+' Calculator v1.0
+
+' 0
+Public Sub Button15_Click()
+
+  Dim boxValue As Integer
+  boxValue = Val(Button15.text)
+  ValueBox1.text = ValueBox1.text & boxValue
+
+End
+
+' 1
+Public Sub Button1_Click()
+
+  Dim boxValue As Integer
+  boxValue = Val(Button1.text)
+  ValueBox1.text = ValueBox1.text & boxValue
+
+End
+
+' 2
+Public Sub Button2_Click()
+  Dim boxValue As Integer
+  boxValue = Val(Button2.text)
+  ValueBox1.text = ValueBox1.text & boxValue
+
+End
+
+' 3
+Public Sub Button3_Click()
+  Dim boxValue As Integer
+  boxValue = Val(Button3.text)
+  ValueBox1.text = ValueBox1.text & boxValue
+  
+End
+
+' 4
+Public Sub Button4_Click()
+  Dim boxValue As Integer
+  boxValue = Val(Button4.text)
+  ValueBox1.text = ValueBox1.text & boxValue
+  
+End
+
+' 5
+Public Sub Button5_Click()
+  Dim boxValue As Integer
+  boxValue = Val(Button5.text)
+  ValueBox1.text = ValueBox1.text & boxValue
+
+End
+
+' 6
+Public Sub Button6_Click()
+  Dim boxValue As Integer
+  boxValue = Val(Button6.text)
+  ValueBox1.text = ValueBox1.text & boxValue
+
+End
+
+' 7
+Public Sub Button7_Click()
+  Dim boxValue As Integer
+  boxValue = Val(Button7.text)
+  ValueBox1.text = ValueBox1.text & boxValue
+
+End
+
+' 8
+Public Sub Button8_Click()
+  Dim boxValue As Integer
+  boxValue = Val(Button8.text)
+  ValueBox1.text = ValueBox1.text & boxValue
+
+End
+
+' 9
+Public Sub Button9_Click()
+  Dim boxValue As Integer
+  boxValue = Val(Button9.text)
+  ValueBox1.text = ValueBox1.text & boxValue
+
+End
+
+' Clear
+Public Sub Button14_Click()
+  Dim clear As Integer
+  clear = 0
+  ValueBox1.text = clear
+
+End
+
+' . (dot)
+Public Sub Button17_Click()
+
+  ValueBox1.text = ValueBox1.text & "."
+
+End
+
+' Input
+Private firstValue As Integer
+Private secondValue As Integer
+Private operatorId As Integer
+
+
+' Sum
+Public Sub Button10_Click()
+ operatorId = 1
+ firstValue = Val(ValueBox1.text)
+ ValueBox1.text = ""
+ 
+End
+
+' Substract
+Public Sub Button11_Click()
+ operatorId = 2
+ firstValue = Val(ValueBox1.text)
+ ValueBox1.text = ""
+  
+End
+
+' Multiplication
+Public Sub Button12_Click()
+ operatorId = 3
+ firstValue = Val(ValueBox1.text)
+ ValueBox1.text = ""
+  
+End
+
+' Division
+Public Sub Button13_Click()
+ operatorId = 4
+ firstValue = Val(ValueBox1.text)
+ ValueBox1.text = ""
+
+End
+
+' Equals
+Public Sub Button16_Click()
+
+  secondValue = Val(ValueBox1.text)
+  
+  If operatorId = 1 Then 
+    ValueBox1.text = firstValue + secondValue
+  Else If operatorId = 2 Then
+    ValueBox1.text = firstValue - secondValue
+  Else If operatorId = 3 Then
+    ValueBox1.text = firstValue * secondValue
+  Else If operatorId = 4 Then 
+    ValueBox1.text = firstValue / secondValue
+  Else 
+    Message.Error("Error")  
+  Endif
+
+End
+
+' ValueBox output
+Public Sub ValueBox1_MouseDown()
+
+   
+End
+
+
+
